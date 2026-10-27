@@ -1,9 +1,9 @@
-﻿Console.Clear();
-Console.Write("Length: ");
-var Length=Convert.ToDouble(Console.ReadLine());
-Console.Write("Width: ");
-var Width=Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Perimeret is: ");
-Console.Write((Length+Width)*2);
+﻿using System.Formats.Asn1;
+
+Console.Clear();
+Console.Write("Radius: ");
+var Radius=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Perimeter is: ");
+Console.Write(2*3.141592653589793*Radius);
 Console.WriteLine("Area is: ");
-Console.Write(Length*Width);
+Console.Write(Radius*Radius*3.14592653589793);
